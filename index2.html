@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Title & Favicon -->
+    <title>Professionals Brunssum 2</title>
+    <!-- CSS Link -->
+    <!-- Testimonial Slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- ====================================== Start Header Section Here ====================================== -->
+    <header id="header-section">
+      <!-- fullnav -->
+      <div id="fullnav" class="fullnav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+          <img src="img/menu-1.svg" alt="menu">
+        </a>
+        <div class="fullnav-content">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a onclick="closeNav()" class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a onclick="closeNav()" class="nav-link" href="#services-section">Services</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="closeNav()" class="nav-link" href="#about-section">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="closeNav()" class="nav-link" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-inverse py-4">
+        <div class="container">
+          <a class="navbar-brand" href="index2.html"><img src="img/logo.png" alt="logo" class="w-75 header-logo"></a>
+          <button onclick="openNav()" class="navbar-toggler">
+            <img src="img/menu-2.svg" alt="menu" class="img-fluid">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services-section">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-section">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link button nav-btn" href="javascript:void(0)">Get a Quote</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="nav-space"></div>
+      <!-- Banner -->
+      <div class="banner-content">
+        <div class="overlay-bg"></div>
+        <div class="container">
+            <div class="row position-relative">
+              <div class="col-lg-7">
+                <h2 class="banner-heading heading text-white">Webdesigner Brunssum</h2>
+                <h2 class="banner-heading heading text-white mt-2">Vind een betaalbare</h2>
+                <h2 class="banner-heading heading text-white mt-2">webdesignbureau in Brunssum</h2>
+                <p class="para-size mt-4 text-white">Afgelopen 7 dagen hebben 5 personen uit Brunssum meerdere</p>
+                <p class="para-size mt-1 text-white">offertes opgevraagd voor een webdesignbureau uit Brunssum. </p>
+                <p class="para-size mt-4 text-white"> Vraag nu ook vrijblijvend offertes op voor jouw opdracht!</p>
+              </div>
+              <div class="col-sm-10 col-lg-5 m-auto banner-contact-form">
+                <div id="contact-form-box" class="contact-form-box bg-white px-sm-2 py-4">
+                  <div class="contact-form-head pl-1">
+                    <h4 style="font-size: 20px;" class="pb-2 px-3 heading heading-2">Find a web designer that suits you</h4>
+                  </div>
+                  <div class="contact-form-body">
+                    <div class="card-body">
+                      <form action="javascript:void(0)" method="POST">
+                        <div class="row">
+                            <div class="col-12 mb-4">
+                                <input name="Name" required type="text" placeholder="Name" class="w-100">
+                            </div>
+                            <div class="col-sm-6 mb-4 pr-sm-2">
+                                <input name="Email" required type="email" placeholder="Email" class="w-100">
+                            </div>
+                            <div class="col-sm-6 mb-4 mb-sm-0 pl-sm-2">
+                                <input name="phone" required type="text" placeholder="Phone" class="w-100">
+                            </div>
+                            <div class="col-12 mb-4">
+                                <input name="Company Name" required type="text" placeholder="Company Name" class="w-100">
+                            </div>
+                            <div class="col-sm-6 mb-4 pr-sm-2">
+                                <input name="Budget" required type="text" placeholder="Budget" class="w-100">
+                            </div>
+                            <div class="col-sm-6 mb-4 mb-sm-0 pl-sm-2">
+                                <input name="Project Duration" required type="text" placeholder="Project Duration" class="w-100">
+                            </div>
+                            <div class="col-12 mb-4">
+                                <textarea required name="Project Details" placeholder="Project Details" class="w-100"></textarea>
+                            </div>
+                        </div>
+                        <button class="button primary-btn">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </header>
+    <!-- ====================================== End Header Section Here ====================================== -->
+
+    <!-- ====================================== Start Process Section Here ====================================== -->
+    <section class="section" id="process-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-4 px-5 mb-5 mb-lg-0">
+                    <img src="img/group.svg" alt="icon" class="services-img">
+                    <h3 class="services-heading my-4 pt-2">To file a request</h3>
+                    <p class="services-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 px-5 mb-5 mb-lg-0">
+                    <img src="img/group-130.svg" alt="icon" class="services-img">
+                    <h3 class="services-heading my-4 pt-2">Wait a minute</h3>
+                    <p class="services-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 px-5">
+                    <img src="img/group-132.svg" alt="icon" class="services-img-height">
+                    <h3 class="services-heading my-4 pt-1">Compare!</h3>
+                    <p class="services-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================== End Process Section Here ====================================== -->
+
+    <!-- ====================================== Start Web design Brunssum Section Here ====================================== -->
+    <section class="section" id="web-design-brunssum-section">
+        <div class="position-relative">
+          <div class="container">
+            <div class="row">
+              <div style="left: 10px;" class="col-md-8 m-auto col-lg-6 text-center align-self-center mb-5 mb-lg-0 position-absolute">
+                <img src="img/mk-air.png" alt="mac" class="img-fluid d-none d-lg-block">
+              </div>
+              <div style="opacity: 0;" class="col-md-8 m-auto col-lg-6 text-center align-self-center mb-5 mb-lg-0">
+                <img src="img/mk-air.png" alt="mac" class="img-fluid d-none d-lg-block">
+              </div>
+              <div class="col-lg-6 align-self-center mt-4 mt-lg-0">
+                <h2 class="heading mb-5 mb-lg-0">Web design Brunssum</h2>
+                <img src="img/mk-air.png" alt="mac" class="w-75 m-auto d-lg-none">
+                <p class="para-size mt-4">Every business owner is now looking for a good website.<p>
+                <p class="para-size mt-4">Beautiful, with the look and feel you are looking for and, most importantly, contemporary. Most likely you already have a certain idea of ​​how your website should be, now you still have to translate this into reality. </p>
+                <p class="para-size mt-4">The web design agencies from Brunssum that work with us have the knowledge and experience to make your dream come true. </p>
+                <p class="para-size mt-4">Real professionals working for you, who go the extra mile for you and think outside the box. The web design agencies that work with us listen carefully to you and then develop. You have the knowledge of your own market, they create a design website that will encourage potential customers to convert.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====================================== End Web design Brunssum Section Here ====================================== -->
+
+      <!-- ====================================== Start Work Detail Section Here ====================================== -->
+      <section class="section" id="work-detail-section">
+          <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0 text-center">
+                    <span class="completed-work counter">250</span>
+                    <h5 class="work-name">Happy customers</h5>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0 text-center">
+                    <span class="completed-work counter">360</span>
+                    <h5 class="work-name">Finalized projects</h5>
+                </div>
+                <div class="col-sm-6 col-lg-4 m-auto text-center">
+                    <span class="completed-work counter">90</span>
+                    <h5 class="work-name">Saved my by comparing</h5>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- ====================================== End Work Detail Section Here ====================================== -->
+
+      <!-- ====================================== Start A Professional Website Section Here ====================================== -->
+    <section class="section" id="a-professional-website-section">
+        <div class="position-relative">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 align-self-center mt-4 mt-lg-0">
+                <h2 class="heading mb-5 mb-lg-0">A professional website: the difference</h2>
+                <img src="img/mk-ipad.png" alt="mac" class="w-75 m-auto d-lg-none">
+                <p class="para-size mt-4">A question that almost all entrepreneurs ask is what should a modern and sustainable webshop meet? These are quite a few things and that is why it is wise to have your web design designed in Brunssum by a professional web designer. A simple example of this is the speed of the website, one of the biggest reasons that visitors click away is a slow website. Let your web designer build a website with sufficient capacity, so that the speed is correct and you can receive enough visitors..<p>
+                <p class="para-size mt-4"> As an entrepreneur you want to be findable, and the position in search engines such as Google and Bing is extremely important. Without good organic findability, you would have had a beautiful website built for free. There are a number of factors that Google considers important, including well-written web content. The next step is to make the website as easy as possible for your customers to use. You naturally want as many visitors as possible to take action.</p>
+                <p class="para-size mt-4"> Therefore, you can easily request quotes from various web designers from Brunssum who can help you with your web design in Brunssum . </p>
+              </div>
+              <div style="opacity: 0;" class="col-md-8 m-auto col-lg-6 text-center align-self-center mb-5 mb-lg-0">
+                <img src="img/mk-ipad.png" alt="mac" class="img-fluid d-none d-lg-block">
+              </div>
+              <div style="right: 0px;" class="a-professional-website-section-img-box col-md-8 m-auto col-lg-6 text-center align-self-center mb-5 mb-lg-0 position-absolute">
+                <img src="img/mk-ipad.png" alt="mac" class="img-fluid d-none d-lg-block">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====================================== End A Professional Website Section Here ====================================== -->
+
+      <!-- ====================================== Start About Section Here ====================================== -->
+      <section class="section" id="about-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 m-auto">
+                      <div class="row">
+                          <div class="col-lg-5">
+                            <div class="about-box p-3 d-none d-lg-block">
+                                <img src="img/group-11.png" alt="img" class="img-fluid">
+                                <p style="color: #17242B;" class="para-size text-center my-3 px-2">I am <a style="color: #009ef0" href="javascript:void(0)"><b>Jan Janssen</b></a>, regional manager in Brunssum. I would be happy to match you with a local web design agency.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-7">
+                              <h2 class="heading">Quickly find an affordable professional from Brunssum</h2>
+                              <div class="col-sm-8 col-md-8 m-auto">
+                                <div class="about-box p-3 d-lg-none my-5">
+                                  <img src="img/group-11.png" alt="img" class="img-fluid">
+                                  <p style="color: #17242B;" class="para-size text-center my-3 px-2">I am <a style="color: #009ef0" href="javascript:void(0)"><b>Jan Janssen</b></a>, regional manager in Brunssum. I would be happy to match you with a local web design agency.</p>
+                                </div>
+                              </div>
+                              <p class="para-size my-5">It will be clear that it is not easy to deliver a website. For this reason, let an affordable web designer in Brunssum assist you for your web design in Brunssum . With them you discuss your wishes and needs regarding the website and they can put your preferences into a beautiful website or webshop. Of course, a web designer <a style="color: #FF9B9B" href="javascript:void(0)">read more...</a></p>
+                              <div class="mt-md-4">
+                                <a href="javascript:void(0)" class="button primary-btn">Request non binding quotes quickly</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- ====================================== End About Section Here ====================================== -->
+
+    <!-- ====================================== Start Testimonial Section Here ====================================== -->
+    <section class="section" id="testimonial-section">
+      <div class="container">
+        <div class="testimonial-main-box section">
+          <div class="row text-center">
+            <div class="col-md-8 col-lg-6 m-auto">
+              <h2 style="font-size: 50px;" class="heading text-white">Testimonials</h2>
+              <p style="color: #C8ECFF;" class="heading-title mt-3 px-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-11 m-auto">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-box p-4">
+                      <div class="client-details clearfix">
+                        <div class="media float-left">
+                          <img src="img/client-1.png" alt="img" class="client-img align-self-center mr-3">
+                          <div class="media-body align-self-center">
+                            <h4 class="client-name">John Doe</h4>
+                            <div class="review">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <i class="fa fa-quote-right quote mt-2 float-right" aria-hidden="true"></i>
+                      </div>
+                      <p class="clients-text mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-box p-4">
+                      <div class="client-details clearfix">
+                        <div class="media float-left">
+                          <img src="img/client-2.png" alt="img" class="client-img align-self-center mr-3">
+                          <div class="media-body align-self-center">
+                            <h4 class="client-name">John Doe</h4>
+                            <div class="review">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <i class="fa fa-quote-right quote mt-2 float-right" aria-hidden="true"></i>
+                      </div>
+                      <p class="clients-text mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-box p-4">
+                      <div class="client-details clearfix">
+                        <div class="media float-left">
+                          <img src="img/client-1.png" alt="img" class="client-img align-self-center mr-3">
+                          <div class="media-body align-self-center">
+                            <h4 class="client-name">John Doe</h4>
+                            <div class="review">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <i class="fa fa-quote-right quote mt-2 float-right" aria-hidden="true"></i>
+                      </div>
+                      <p class="clients-text mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-box p-4">
+                      <div class="client-details clearfix">
+                        <div class="media float-left">
+                          <img src="img/client-2.png" alt="img" class="client-img align-self-center mr-3">
+                          <div class="media-body align-self-center">
+                            <h4 class="client-name">John Doe</h4>
+                            <div class="review">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <i class="fa fa-quote-right quote mt-2 float-right" aria-hidden="true"></i>
+                      </div>
+                      <p class="clients-text mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Testimonial Section Here ====================================== -->
+
+     <!-- ====================================== Start Services Section Here ====================================== -->
+     <section class="section" id="services-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 m-auto">
+              <h2 class="heading">Professionals from other branches in Brunssum</h2>
+            </div>
+          </div>
+          <div class="row pt-5 justify-content-center">
+            <div class="col-sm-6 col-lg-3 mb-5">
+              <div class="services-box p-4">
+                <img src="img/group-90.svg" alt="icon" class="services-img">
+                <h3 class="services-heading my-4 pt-1">Cleaner</h3>
+                  <p class="services-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-5">
+              <div class="services-box p-4">
+                <img src="img/group-89.svg" alt="icon" class="services-img">
+                <h3 class="services-heading my-4">Payrolling-company</h3>
+                  <p class="services-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-5">
+              <div class="services-box p-4">
+                <img src="img/group-91.svg" alt="icon" class="services-img services-img-height">
+                <h3 class="services-heading my-4">Funeral home</h3>
+                  <p class="services-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-5">
+                <div class="services-box p-4">
+                  <img src="img/group-92.svg" alt="icon" class="services-img">
+                  <h3 class="services-heading my-4">Solar company</h3>
+                    <p class="services-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====================================== End Services Section Here ====================================== -->
+
+    <!-- ====================================== Start Contact Section Here ====================================== -->
+    <section id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 m-auto">
+              <div class="contact-main-box p-5">
+                <div class="row">
+                    <div class="col-lg-5 align-self-center mb-5 mb-lg-0">
+                        <h2 style="font-size: 50px;" class="heading">Let's Talk</h2>
+                        <p class="heading-title my-4">If you have a question or a testimonial for us, feel free to contact us using the form on the right.</p>
+                        <a href="#contact-form-box" class="button primary-btn">Contact Now</a>
+                      </div>
+                      <div class="col-lg-7 align-self-center">
+                        <div class="contact-info  float-lg-right">
+                            <div class="email">
+                              Email: <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a>
+                            </div>
+                            <br>
+                            <div class="phone mt-2">
+                              Phone: +1 132 456 (7894)
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Contact Section Here ====================================== -->
+
+    <!-- ============================= Start footer Section Here ============================= -->
+     <footer>
+      <div class="container">
+        <div class="footer-widget pt-5">
+          <div class="row text-center text-sm-left">
+              <div class="col-sm-6 col-lg-3">
+                <a href="index2.html"><img src="img/footer-logo.png" alt="footer-logo" class="w-75 footer-logo"></a>
+                <p class="para-size text-white mt-4">Why I say old chap that is sping lavatory chip shop gosh off his, smashing boot are you taking the piss young.!!</p>
+                <div class="footer-social-icon mt-4 mb-5 pb-3">
+                  <a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+                  <a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+                  <a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
+                  <a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a>
+                </div>
+              </div>
+              <div class="d-none d-lg-block col-lg-5"></div>
+              <div class="col-sm-3 col-lg-2 mb-5">
+                <div class="footer-sub-heading">Navigation</div>
+                <div class="footer-link pt-2">
+                  <p><a href="javascript:void(0)">About</a> </p>
+                  <p><a href="javascript:void(0)">Skill</a></p>
+                  <p><a href="javascript:void(0)">Project</a></p>
+                </div>
+              </div>
+              <div class="col-sm-3 col-lg-2 mb-5">
+                <div class="footer-sub-heading">Contacts</div>
+                <div class="footer-contact pt-2 text-white">
+                  <p>+1 123 456 8797</p>
+                  <p>mail@mail.com</p>
+                  <p>North Street, Newyork, USA</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="footer-copyright text-white text-left py-3 pb-4">
+          <div class="row">
+            <div class="col-sm-6 col-md-7 text-center text-sm-left align-self-center">
+              <p>Copyright & Design by @Faysal</p>
+            </div>
+            <div class="col-sm-6 col-md-5 text-center align-self-center">
+              <a href="javascript:void(0)" class="mr-5 text-white">Terms of use </a>
+              <a href="javascript:void(0)" class="text-white">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ============================= End Footer Section Here ============================= -->
+    <!-- Back To Top -->
+    <button id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <!-- WayPoints Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- CounterUP Plugin -->
+    <script src="js/counterup.min.js"></script>
+    <script>
+      jQuery(document).ready(function($) {
+      $('.counter').counterUp({
+          delay: 10,
+          time: 1000
+      });
+      });
+    </script>
+    <!-- Testimonial Slider -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
